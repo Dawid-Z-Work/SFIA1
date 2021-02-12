@@ -7,7 +7,7 @@
 ### Index
 
 1. [Introduction](#Introduction)
-2. [Requirements](#Requirements)
+2. [Technologies](#Technologies)
 3. [Scope](#Scope)
 4. [General Approach](#General-Approach)
 5. [ERD](#ERD)
@@ -22,9 +22,50 @@
 
  ### Introduction
 
-### Requirements
+
+
+### Technologies
+
+- Kanban Board: **Jira**
+
+- Version Control: **Git**
+
+- CI Server: **Jenkins**
+
+- Configuration Management: **Ansible**
+
+- Cloud Server: **AWS EC2**
+
+- Database Server: **AWS RDS**
+
+- Containerisation: **Docker**
+
+- Reverse Proxy: **NGINX**
+
+- Orchestration Tool: **Kubernetes**
+
+- Infrastructure Management: **Terraform**
 
 ### Scope
+
+- A **Jira board** with full expansion on tasks needed to complete the project.
+
+- This could also provide a record of any **issues or risks** that you faced creating your project.
+
+- The application must be deployed using **containerisation** and **orchestration** tools.
+
+- The application must be **tested** through the CI pipeline.
+
+- The project must make use of two **managed Database Servers:** 1 for Testing and 1 for Production.
+
+- If a change is made to the code base, **Webhooks** should be used so that Jenkins recreates and redeploys the changed application.
+
+- The infrastructure for the project should be configured using an **infrastructure management** tool (Infrastructure as Code).
+
+- As part of the project, you need to create an **Ansible Playbook** that will provision the environment that your CI Server needs to run.
+
+- The project must make use of a **reverse proxy** to make your application accessible to the user.
+
 
 ### General Approach
 
