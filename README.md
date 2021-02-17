@@ -28,43 +28,45 @@
 
 - Kanban Board: **Jira**
 
+- Database: **GCP Managed SQL Server**
+
+- Programming Language: **Java**
+
+- Front-End: **HTML, CSS, JavaScript**
+
+- Unit Tests: **JUnit and Mockito**
+
+- Integration Tests: **Selenium**
+
 - Version Control: **Git**
 
-- CI Server: **Jenkins**
+- CI Server: **CircleCi**
 
-- Configuration Management: **Ansible**
-
-- Cloud Server: **AWS EC2**
-
-- Database Server: **AWS RDS**
-
-- Containerisation: **Docker**
-
-- Reverse Proxy: **NGINX**
-
-- Orchestration Tool: **Kubernetes**
-
-- Infrastructure Management: **Terraform**
+- Cloud Server: **GCP Virtual Machine**
 
 ### Scope
 
-- A **Jira board** with full expansion on tasks needed to complete the project.
+- A Jira board with full expansion on user stories, use cases and tasks needed to complete the project.
 
-- This could also provide a record of any **issues or risks** that you faced creating your project.
+- Clear Documentation from a design phase describing the architecture you will use for your project.
 
-- The application must be deployed using **containerisation** and **orchestration** tools.
+- A detailed Risk Assessment created at the beginning of your project.
 
-- The application must be **tested** through the CI pipeline.
+- A relational database used to store data persistently for the project.
 
-- The project must make use of two **managed Database Servers:** 1 for Testing and 1 for Production.
+- A functional application created in the OOP language, following best practices and design principles, that you have covered during training, this application needs to meet the requirements set on your Kanban Board
 
-- If a change is made to the code base, **Webhooks** should be used so that Jenkins recreates and redeploys the changed application.
+- The application must have a functioning front-end website and integrated API.
 
-- The infrastructure for the project should be configured using an **infrastructure management** tool (Infrastructure as Code).
+- Fully designed test suites for the application you are creating, as well as automated tests for validation of the application.
 
-- As part of the project, you need to create an **Ansible Playbook** that will provision the environment that your CI Server needs to run.
+- You must meet an acceptable level of test coverage in your backend and provide consistent reports and evidence that you have done so.
 
-- The project must make use of a **reverse proxy** to make your application accessible to the user.
+- Code fully integrated into a Version Control System
+
+- Code built through a CI server
+
+- Application deployed to a cloud-based virtual machine
 
 
 ### General Approach
