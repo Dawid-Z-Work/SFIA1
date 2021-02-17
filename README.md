@@ -20,9 +20,9 @@
 12. [Improvements](#Improvements)
 13. [Bibliography](#Bibliography)
 
- ### Introduction
+### Introduction
 
-
+Welcome to the introduction of my project
 
 ### Technologies
 
