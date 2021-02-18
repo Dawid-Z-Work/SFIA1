@@ -73,9 +73,21 @@ Welcome to the introduction of my project
 
 ### ERD
 
+For my project the databases are connecting and linking to each other in some way. This is done through primary key and foreign keys. An easy way to visualise this is by making an Entity Relationship (ER) diagram. From the diagram you can see 4 of my tables and lines that connect to each other as seen below:
 <p align="center">
-  <img width="811" height="711" src="https://icecube-eu-288.icedrive.io/thumbnail?p=1WkKWPv7JKw04jrkUSyKpmTHe7kXhq0wE3lEpf18%2FHh6NmzN%2BEfZbHXpE7E4PMZ%2FiREhxoe6jhkPWMFdKB4dR4rfYoxLT3AFi3pJZo0LUQy2PA9bx%2FF7a5HJWoTxWMFy&w=1280&h=1280&m=cropped">
+  <img width="811" height="711" src="https://icecube-eu-286.icedrive.io/thumbnail?p=QKQT%2B16neK2ds664x5r7hCczwAtVHyq6Ss4TDm3MclDRWU3zgmOTEtNiozlQmorKIBvDpeFu3Gka6s%2BL7mRPRotw5xHkfva9oNdmPShazlI81CtJXnkwkOwm7vHJh69P&w=1280&h=1280&m=cropped">
 </p>
+
+After a quick glance at my diagram you can see that primary keys always match up to foreign keys. The next term to determine is the exact relationship the two tables have between each other and vice versa
+
+These relationships are described as One-to-one, One-to-many, Many-to-one and Many-to-many. These relationships are assigned to everysingle link that you can see on the diagram, which will be expressed below:
+
+Employee > Job title (One-to-one) - An employee will have a job title / A job title is assigned to an employee
+
+Job title > Restrictions (One-to-Many) - A job will have many restrictions / Many restrictions are assigned to a job.
+
+Job title > Location (Many-to-One) - A location will have many jobs / Many jobs are at a location
+
 
 
 
