@@ -74,7 +74,7 @@ Welcome to the introduction of my project
 ### ERD
 
 <p align="center">
-  <img width="460" height="300" src="https://icecube-eu-288.icedrive.io/thumbnail?p=1WkKWPv7JKw04jrkUSyKpmTHe7kXhq0wE3lEpf18%2FHh6NmzN%2BEfZbHXpE7E4PMZ%2FiREhxoe6jhkPWMFdKB4dR4rfYoxLT3AFi3pJZo0LUQy2PA9bx%2FF7a5HJWoTxWMFy&w=1280&h=1280&m=cropped">
+  <img width="811" height="711" src="https://icecube-eu-288.icedrive.io/thumbnail?p=1WkKWPv7JKw04jrkUSyKpmTHe7kXhq0wE3lEpf18%2FHh6NmzN%2BEfZbHXpE7E4PMZ%2FiREhxoe6jhkPWMFdKB4dR4rfYoxLT3AFi3pJZo0LUQy2PA9bx%2FF7a5HJWoTxWMFy&w=1280&h=1280&m=cropped">
 </p>
 
 
